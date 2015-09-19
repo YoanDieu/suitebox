@@ -1,13 +1,16 @@
 div.chevron {
   display:block;
   position: relative;
-  margin-top: 20px;
+  padding-top: 20px;
   text-align: center;
-  border-bottom: solid 1px lightgreen;
   padding-bottom: 20px;
+  width: 100%;
+  background-color: rgba(32,32,32,1);
+  z-index: -1;
+  border-bottom: 8px dashed rgba(243,157,65,1);
 
     i{
       font-size: 40px;
-      color: rgba(169,245,65,1);
+      color: rgba(243,157,65,1);
     }
 }

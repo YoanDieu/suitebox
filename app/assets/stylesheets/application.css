@@ -20,4 +20,20 @@ body {
   margin: 0;
   top: 0;
   box-sizing: border-box;
+  background-color: white ; /*rgba(243,157,65,1)*/;
+  font-family: 'Montserrat', sans-serif;
+}
+
+span.white{
+  color: white;
+  /*text-shadow: 0px 0px 4px black;*/
+}
+
+span.green {
+  color: rgba(123,208,98,1);
+  text-shadow: 0px 0px 2px black;
+}
+
+section:last-child {
+  border: none;
 }
