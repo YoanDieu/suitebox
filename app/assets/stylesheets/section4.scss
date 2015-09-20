@@ -52,6 +52,12 @@ section.section4 {
       color: white;
       text-decoration: none;
       margin: 100px auto;
+      transition: all ease 0.35s;
+
+      &:hover {
+        background-color: white;
+        color: rgba(106,179,84,1);
+      }
     }
   }
 }
