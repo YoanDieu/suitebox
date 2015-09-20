@@ -37,3 +37,12 @@ span.green {
 section:last-child {
   border: none;
 }
+
+div.logo {
+  background-color: black;
+  padding: 50px;
+}
+
+h1.log{
+  font-size: 100px;
+}

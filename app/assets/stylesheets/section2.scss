@@ -105,19 +105,21 @@ section.section2 {
     article{
         padding-top: 100px;
         padding-bottom: 100px;
+        width: 70%;
 
         h1{
           margin-bottom: 100px;
         }
 
         p {
-          line-height: 3;
-          margin-bottom: 70px;
+            line-height: 3;
+            margin-bottom: 70px;
+            font-size: 18px;
         }
 
         div.thumb {
            height: 480px;
-           width: 80%;
+           width: 70%;
            margin-left: auto;
            margin-right: auto;
            margin-bottom: 100px;
@@ -146,13 +148,13 @@ section.section2 {
         }
 
         p {
-          line-height: 3.5;
+          line-height: 3;
           margin-bottom: 90px;
+          font-size: 18px;
         }
 
         div.thumb {
-           height: 580px;
-           width: 80%;
+           width: 70%;
            margin-left: auto;
            margin-right: auto;
            margin-bottom: 100px;

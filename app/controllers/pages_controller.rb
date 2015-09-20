@@ -1,4 +1,5 @@
 class PagesController < ApplicationController
+skip_before_filter :authorize, only: [:home, :logo, :order]
 
   def home
   end
@@ -6,4 +7,9 @@ class PagesController < ApplicationController
 
   def order
   end
+
+  def logo
+    render 'testlogo'
+  end
+
 end
