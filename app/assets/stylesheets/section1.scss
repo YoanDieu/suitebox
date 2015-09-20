@@ -73,3 +73,26 @@
   }
 
 }
+
+@media all and (min-width: 1501px) {
+
+  section.section1{
+
+    article{
+        width: 60%;
+        padding-top: 140px;
+        padding-bottom: 140px;
+
+        h1{
+          margin-bottom: 120px;
+        }
+
+        p {
+          line-height: 3.5;
+          margin-bottom: 90px;
+        }
+        }
+
+  }
+
+}

@@ -75,3 +75,27 @@ header {
     }
   }
 }
+
+@media all and (min-width: 1101px) and (max-width: 1500px){
+    header{
+      height: 450px;
+
+      div.couture {
+        height: 276px;
+        margin-top: 100px;
+      }
+    }
+
+}
+
+@media all and (min-width: 1501px){
+    header{
+      height: 550px;
+
+      div.couture {
+        height: 376px;
+        margin-top: 100px;
+      }
+    }
+
+}
