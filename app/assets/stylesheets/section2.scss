@@ -46,7 +46,7 @@ section.section2 {
         }
 
         &:hover {
-          background-color: rgba(243,157,65,0.7);
+          background-color: rgba(231,149,62,0.7);
           h1{
           color: rgba(255,255,255,1);
           }
@@ -69,25 +69,65 @@ section.section2 {
   }
 }
 
-@media all and(min-width: 700px) and (max-width: 1100px){
+
+@media all and (min-width: 700px) and (max-width: 1100px){
+    section.section2{
+
+      article{
+          padding-top: 80px;
+          padding-bottom: 80px;
+
+          h1{
+            margin-bottom: 100px;
+          }
+
+          div.thumb {
+             height: 480px;
+             width: 80%;
+             margin-left: auto;
+             margin-right: auto;
+             margin-bottom: 70px;
+
+             div.filter {
+               padding-top: 380px;
+             }
+           }
+      }
+
+
+    }
+
+}
+
+@media all and (min-width: 1101px) and (max-width: 1500px){
   section.section2{
 
-    article{  
-      padding-top: 60px;
-      padding-bottom: 60px;
+    article{
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+        h1{
+          margin-bottom: 100px;
+        }
+
+        p {
+          line-height: 3;
+          margin-bottom: 70px;
+        }
 
         div.thumb {
            height: 480px;
            width: 80%;
            margin-left: auto;
            margin-right: auto;
+           margin-bottom: 100px;
 
            div.filter {
              padding-top: 380px;
            }
+         }
+      }
 
-        }
-    }
   }
 
 }
